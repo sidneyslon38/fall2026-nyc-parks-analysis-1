@@ -28,6 +28,10 @@ Having the average hours spent cleaning, and crew size data is also helpful on a
 
 PIP inspection data is also included, as a measurement of actual park conditions. The data revealed that cleaning efforts also do not strongly correlate to overall park conditions, which means there are external factors (like park goers) contributing more heavily to negative conditions.
 
+## Outputs
+
+I exported the final list of 335 parks included in this analysis, with all cleaning data, inspection data, and census income data. Each row is a different park. It is available in the Output folder.
+
 ## AI Disclosure
 
 Claude Code was used to help me understand statistical regressions, and walked me through the GeoPandas steps. I would not have known how to conduct a spatial merge without the advice of Claude Code for this analysis. However, it was only used as a learning tool, and for each line of code it recommended, I had it walk me through the steps so that I understand how everything is working. The Jupyter notebook is also heavily annotated, explaining each step.
